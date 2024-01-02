@@ -1,0 +1,88 @@
+.card1{
+   width: 350px;
+   height: 400px;
+   background-color: transparent;
+   margin-top: 5px;
+   cursor: pointer;
+   border-radius: 10px;
+   box-shadow: rgb(245, 221, 3) 0px 0px 10px 4px;
+   overflow: hidden;
+   padding: 26px 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+   transition: all 0.5s ease-in-out;
+   &:hover {
+    transform: translateY(-10px);
+    box-shadow: rgb(245, 221, 3) 0px 0px 25px 3px;
+    filter: brightness(1.1);
+   }
+}
+
+.card1 img{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: rgb(238, 238, 237) 0px 0px 8px 2px;
+}
+
+.tags{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    
+    margin-top: 4px;
+}
+
+.tag{
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+    background-color: transparent;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px 2px;
+}
+
+.title1{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.date1{
+    font-size: 12px;
+    margin-left: 2px;
+    font-weight: 400;
+    color: gray;
+}
+
+.description1{
+    font-weight: 400;
+    color: white;
+    overflow: hidden;
+    margin-top: 8px;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}

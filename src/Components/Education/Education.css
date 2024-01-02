@@ -1,0 +1,49 @@
+.educationComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    padding: 0px 0px 60px 0px;
+    margin-top: -50px;
+}
+
+.wrapper1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 40px 0px 0px 0px;
+    gap: 12px;
+}
+
+.heading2 h1{
+    color: #ffc107;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading2 h2{
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.TimelineSection{
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+

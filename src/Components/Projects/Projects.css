@@ -1,0 +1,45 @@
+.ProjectsComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    padding: 0px 0px 60px 0px;
+    margin-top: -10px;
+}
+
+.wrapper4{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 40px 0px 0px 0px;
+    gap: 12px;
+}
+
+.heading4 h1{
+    color: #ffc107;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading4 h2{
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.CardConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
