@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-scroll'
 import { Bio } from '../../data/Constants'
 
 
 const Navbar = () => {
  
- const [isOpen, setIsOpen] = useState(false);
+//  const [isOpen, setIsOpen] = useState(false);
  const [color , setColor] = useState(false)
  const changeColor = () =>{
      if(window.scrollY >=100){
@@ -30,9 +30,9 @@ const Navbar = () => {
                </Link>
              </div>
 
-             <div className='mobile-Icon'>
+             {/* <div className='mobile-Icon'>
                 <FaBars onClick={() => setIsOpen(!isOpen)}/>
-             </div>
+             </div> */}
 
              <div className='menu'>
                <ul className="nav-tabs">
