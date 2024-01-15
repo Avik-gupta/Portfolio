@@ -31,7 +31,7 @@ const Home = () => {
         </h2>
 
         <div className='clickk'>
-           <a href='Ayush Resume.pdf' download={'Ayush Resume.pdf'} className='a' target="_blank">
+           <a href='Ayush Resume.pdf' download={'Ayush_Gupta_Resume.pdf'} className='a' target="_blank">
               <button className='click1'>Download Resume</button>
            </a>
 
