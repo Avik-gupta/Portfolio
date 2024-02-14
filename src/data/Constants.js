@@ -1,7 +1,6 @@
 import img1 from '../Assets/2.jpg'
 
 
-
 export const Bio = {
     name: "Ayush Gupta",
     roles: [
@@ -169,6 +168,7 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/rishavchanda/Project-Management-App",
       webapp: "https://vexa-app.netlify.app/",
+      repoName:"Portfolio"
     },
     {
       id: 2,
@@ -176,7 +176,7 @@ export const Bio = {
       date: "Jan 2023 - Mar 2023",
       
       image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        "https:/github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
         tags: [
           "React Js",
           "Redux",
@@ -187,6 +187,7 @@ export const Bio = {
       category: "machine learning",
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
       webapp: "https://brain-tumor.netlify.app/",
+      repoName: "E-commerce"
       
     },
     {
@@ -205,6 +206,7 @@ export const Bio = {
       category: "android app",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      repoName:"Clinic-Management"
     },
     {
       id: 4,
@@ -222,6 +224,7 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
       webapp: "https://whatsapp-clone-rishav.web.app",
+      repoName:"Shopping_cart"
     },
    
   ];

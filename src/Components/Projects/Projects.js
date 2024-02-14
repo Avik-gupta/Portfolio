@@ -6,6 +6,14 @@ import { projects } from '../../data/Constants'
 const Projects = () => {
     
   const [toggle, setToggle] = useState('all');
+
+  const handleProjectClick = (project) => {
+    // Enhanced URL construction:
+    const gitHubUrl = `https://github.com/Avik-gupta/${project.repoName}`;
+
+    // Redirect using window.location.href (ensures full URL construction):
+    window.location.href = gitHubUrl;
+  };
   
   return (
     <div id='projects' className='ProjectsComponent'>
@@ -18,7 +26,7 @@ const Projects = () => {
           <div className='CardConatiner'>
              {toggle === 'all' && projects
                .map((projects) => (
-              <ProjectCard projects={projects}  />
+              <ProjectCard projects={projects}  onClick={handleProjectClick} />
               ))}
           </div>
        </div>
