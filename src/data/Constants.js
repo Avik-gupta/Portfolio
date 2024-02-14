@@ -156,7 +156,7 @@ export const Bio = {
       title: "Personal Portfolio",
       date: "Dec 2023 - Present",
       
-      image: img1,
+      image: "https://raw.githubusercontent.com/Avik-gupta/Portfolio/main/src/Images/Img.JPG",
        
       tags: [
         "React Js",
@@ -176,7 +176,7 @@ export const Bio = {
       date: "Jan 2023 - Mar 2023",
       
       image:
-        "https:/github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        "https://raw.githubusercontent.com/Avik-gupta/Portfolio/main/src/Assets/Capture.JPG",
         tags: [
           "React Js",
           "Redux",
@@ -184,7 +184,7 @@ export const Bio = {
           "Styled Components",
         
         ],
-      category: "machine learning",
+      
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
       webapp: "https://brain-tumor.netlify.app/",
       repoName: "E-commerce"
@@ -195,7 +195,7 @@ export const Bio = {
       title: "Clinic Management",
       date: "Dec 2021 - Apr 2022",
       image:
-        "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+        "https://raw.githubusercontent.com/Avik-gupta/Portfolio/main/src/Assets/Capture1.JPG",
         tags: [
           "React Js",
           "Redux",
@@ -213,7 +213,7 @@ export const Bio = {
       title: "Shopping Cart",
       date: "Jul 2021",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+        "https://raw.githubusercontent.com/Avik-gupta/Portfolio/main/src/Assets/Capture3.JPG",
         tags: [
           "React Js",
           "Redux",
@@ -221,7 +221,7 @@ export const Bio = {
           "Styled Components",
         
         ],
-      category: "web app",
+      
       github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
       webapp: "https://whatsapp-clone-rishav.web.app",
       repoName:"Shopping_cart"
