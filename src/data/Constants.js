@@ -116,14 +116,6 @@ export const Bio = {
   
   export const education = [
     {
-      id: 0,
-      img: "https://upload.wikimedia.org/wikipedia/en/6/6c/Jiwaji_University_logo.png",
-      school: "Jiwaji University , Gwalior",
-      date: "Oct 2021 - Sep 2023",
-      desc: "As a highly motivated and results-driven MBA candidate, I bring a unique blend of academic excellence and practical experience to the table. Throughout my program, I have honed my analytical and strategic thinking skills, developing a solid foundation in business management . Possessing strong communication and leadership skills, I have successfully collaborated with diverse teams, driving projects to successful completion.",
-      degree: "Masters Of Business Administration - M.B.A",
-    },
-    {
       id: 1,
       img: "https://upload.wikimedia.org/wikipedia/en/6/6c/Jiwaji_University_logo.png",
       school: "Jiwaji University , Gwalior",
